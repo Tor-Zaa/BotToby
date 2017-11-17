@@ -1,29 +1,29 @@
 # -*- coding: utf-8 -*-
 
-import TorZaa
-from TorZaa.lib.curve.ttypes import *
+import TOBY
+from TOBY.lib.curve.ttypes import *
 from datetime import datetime
 import time,datetime,random,sys,re,os,json,subprocess,codecs,threading,glob
 
-cl = TorZaa.LINE()
+cl = TOBY.LINE()
 print "\n @ Login ==> Admin\n"
 cl.login(qr=True)
 cl.loginResult()
 print "\n Login Admin Success\n................\n"
 
-ki = TorZaa.LINE()
+ki = TOBY.LINE()
 print "\n @ Login ==> BOT 1\n"
 ki.login(qr=True)
 ki.loginResult()
 print "\n Login BOT 1 Success\n................\n"
 
-ki2 = TorZaa.LINE()
+ki2 = TOBY.LINE()
 print "\n @ Login ==> BOT 2\n"
 ki2.login(qr=True)
 ki2.loginResult()
 print "\n Login BOT 2 Success\n................\n"
 
-ki3 = TorZaa.LINE()
+ki3 = TOBY.LINE()
 print "\n @ Login ==> BOT 3\n"
 ki3.login(qr=True)
 ki3.loginResult()
